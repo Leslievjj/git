@@ -18,7 +18,7 @@ app.get("/pullrequest", (req, res) => {
 
 
 app.listen(PORT, () => {
-    console.log(`web api is running on http://localhost:${PORT}`);
+    console.log(`web api is running on http://localhost:${PORT}`),
 });
 
 
