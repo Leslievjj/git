@@ -1,0 +1,17 @@
+{
+  "name": "leslie",
+  "version": "1.0.0",
+  "description": "demo1",
+  "license": "ISC",
+  "author": "lv",
+  "type": "module",
+  "main": "src/app.js",
+  "scripts": {
+    "prod": "node --env-file=.env.production src/app.js",
+    "dev": "node --env-file=.env.development --watch src/app.js"
+      
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
